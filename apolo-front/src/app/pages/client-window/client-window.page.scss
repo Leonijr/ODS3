@@ -1,0 +1,110 @@
+.person{
+    width: 10em;
+    position: relative;
+    top: 5%;
+    left: 30%;
+}
+.profile{
+    width: 80%;
+    height: 40%;
+    position: fixed;
+    top: 1%;
+    left: 8%;
+    --background: #edf4f5;
+}
+
+.profilec{
+    position: fixed;
+    top: 43%;
+    left: 2%;
+    width: 91%;
+    height: 25%;
+    --background: #edf4f5;
+}
+.pflcardt{
+    position: relative;
+    left: 12%;
+    color: #e8a900;
+
+}
+
+.pflcards{
+    position: relative;
+    left: 35%;
+    color: #101010;
+}
+.pflcardcnt{
+    position: relative;
+    left: 30%;
+    color: #101010;
+}
+
+.txtprfc{
+    color: #e8a900;
+    padding-left: 2%;
+}
+
+.rw{
+    padding-left: 2%;
+
+}
+
+.crdagenda{
+    width: 80em;
+    height: 15em;
+}
+
+.crdlist{
+    position: relative;
+    left: 8%;
+    height: 8em;
+    width: 20em;
+    border: solid 2px;
+    border-color: #e6e6e6;
+    border-radius: 8px;
+    padding: 2px;
+    background: none;
+}
+
+.btncall{
+    position: fixed;
+    top: 70%;
+    left: 51%;
+    color: #e8a900;
+    --background: #ffffff;
+    width: 180px;
+    height: 40px;
+}
+
+.btnwhats{
+    position: fixed;
+    top: 70%;
+    left: 2%;
+    color:#e8a900;
+    --background: #ffffff;
+    width: 180px;
+    height: 40px;
+
+}
+
+.btab{
+    background-color:  #ed9a00;
+}
+.btablbl  {
+    color: #edf4f5;
+}
+.btabicn  {
+    color: #edf4f5;
+}
+
+.tabss{
+    background-color: #e6e6e6;
+}
+
+.cttl{
+    color: #101010;
+}
+
+
+
+

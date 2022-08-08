@@ -1,0 +1,36 @@
+<ion-header>
+</ion-header>
+
+<ion-content>
+
+  <ion-card class="contCard" >
+    <div class="ion-text-center">
+      <ion-card-title>
+        <h1>
+          Esqueceu sua senha?
+        </h1>
+      </ion-card-title >
+        <ion-card-content>
+          <h2 class = "content-visible">
+            <p> Caso tenha esquecido sua senha, por gentileza, informe o e-mail cadastrado
+                para enviarmos sua senha.
+            </p>
+            <br>
+          </h2>
+          <ion-item class="styItem" >
+              <form [formGroup]="formForgotPassword">
+              <ion-input formControlName="email" placeholder="e-mail" ></ion-input>
+            </form>
+          </ion-item>
+          <br>
+          <ion-button (click)="forgotMyPassWord()" shape="round" size="small" class="btnSend">
+            <h4>enviar</h4>
+          </ion-button>
+          <ion-spinner *ngIf="showLoadingRequest" name="lines"></ion-spinner>
+          <h2 class="response-message">{{messageResponse}}</h2>
+        </ion-card-content>
+    </div>
+  </ion-card>
+
+
+</ion-content>
